@@ -1,0 +1,145 @@
+* {
+  color: #404040;
+  font-family: "Jost", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+/*width*/
+.w30 {
+  width: 38vw;
+  float: left;
+  background-color: #262626;
+}
+.w70 {
+  width: 50vw;
+  float: left;
+  margin: 5%;
+}
+
+/*Float*/
+.fr {
+  float: right;
+}
+.fl {
+  float: left;
+}
+
+/*padding*/
+.p30 {
+  padding: 0px 30px 30px 30px;
+}
+
+/*Titulos*/
+h1 {
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+h2 {
+  text-align: center;
+  border: 2px solid #404040;
+  margin: 30px 0;
+}
+.hWhite {
+  border-color: white;
+  color: white;
+}
+.pw {
+  color: white;
+}
+.ps {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  list-style-type: none;
+  display: flex;
+}
+
+/*Header*/
+.slogan {
+  text-align: center;
+}
+/*Fin Header*/
+/*w30*/
+.presentation {
+  background-color: orange;
+  text-align: center;
+  padding: 20px 0;
+}
+/*Skills percent*/
+label {
+  padding-right: 10px;
+  width: 120px;
+}
+/*https://developer.mozilla.org/es/docs/Web/HTML/Element/progress*/
+
+/*img+icons*/
+.image-profile {
+  width: 100%;
+}
+.name {
+  color: white;
+  margin-right: 5px;
+}
+.name:hover {
+  color: orange;
+}
+
+/*menu*/
+nav {
+  background-color: orange;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #262626;
+}
+.footer {
+  background-color: #262626;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-top: 1px solid white;
+}
+.menu {
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+}
+a.menu-btn {
+  color: white;
+  text-decoration: none;
+}
+a.menu-btn:hover {
+  color: #262626;
+  text-decoration: underline;
+}
+.menu-btn2 {
+  color: white;
+  text-decoration: none;
+}
+.menu-btn2:hover {
+  color: orange;
+  text-decoration: underline;
+}
+.icon {
+  font-size: 20px;
+  border-bottom: 0px solid;
+}
+.icon:hover {
+  border-bottom: 1px solid;
+}
+
+/*Madia query*/
+
+@media (max-width: 768px) {  
+  .w30 { width: 100vw; }
+  .w70 { width: 90vw; }
+  .image-profile { display: none;}
+}
+

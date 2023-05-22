@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/af0c3ecc5b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Objetivos
+Agrega tus datos personales como nombre, apellidos, correo, etc. 
+Incluye también tus estudios 
+(no importa si no está relacionado con programación),
+ habilidades, experiencia laboral, trabajo actual y hobbies.
+ Finalmente agrega una imagen cool, puede ser una fotografía tuya o algo con lo 
+ que te identifiques
+Requerimientos técnicos
+Tener una imagen con clase 'name'
+Tener una imagen con clase 'image-profile'
+Tener dos encabezados h2
+Debe tener una lista no ordenada con clase 'skills'
+Debe tener un titulo y llamarse 'Mi CV'-->
+    <header>
+      <nav id="reg">
+        <ul class="menu">
+          <li><a href="#con" class="menu-btn">Contact</a></li>
+          <li><a href="#ski" class="menu-btn">Skills</a></li>
+          <li><a href="#int" class="menu-btn">Interests</a></li>
+          <li><a href="#abo" class="menu-btn">About Me</a></li>
+          <li><a href="#edu" class="menu-btn">Education</a></li>
+          <li><a href="#expe" class="menu-btn">Experience</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <aside class="w30">
+        <img src="img/image.jpg" alt="" class="image-profile" />
+        <div class="presentation">
+          <h1>JUAN CABALLERO</h1>
+          <p>Full Stack</p>
+        </div>
+
+        <div class="p30">
+          <h2 class="hWhite" id="con">CONTACT</h2>
+          <ul>
+            <li>
+              <i class="fa-solid fa-location-dot fl name"></i>
+              <p class="pw fl"><strong class="pw">Country:</strong> Colombia</p>
+            </li>
+            <li>
+              <i class="fa-solid fa-phone-volume fl name"></i>
+              <p class="pw fl">
+                <strong class="pw">Phone:</strong>
+                <a href="tel: +573102729066" class="pw"> +57 310 272 9066</a>
+              </p>
+            </li>
+            <li>
+              <i class="fa-solid fa-envelope fl name"></i>
+              <p class="pw">
+                <strong class="pw">Mail:</strong>
+                <a
+                  href="mailto:juansebastiancaballeronieto@gmail.com"
+                  class="pw"
+                  >juansebastiancaballeronieto@gmail.com</a
+                >
+              </p>
+            </li>
+          </ul>
+        </div>
+        <div class="p30">
+          <h2 class="hWhite" id="ski">SKILLS</h2>
+          <ul>
+            <li>
+              <label for="file" class="fl pw">Graphic Design:</label>
+              <progress id="file" max="100" value="80" class="fl">80%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">UX:</label>
+              <progress id="file" max="100" value="70" class="fl">70%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">HTML:</label>
+              <progress id="file" max="100" value="90" class="fl">90%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">CSS:</label>
+              <progress id="file" max="100" value="80" class="fl">80%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">JavaScript:</label>
+              <progress id="file" max="100" value="50" class="fl">50%</progress>
+            </li>
+          </ul>
+        </div>
+
+        <div class="p30">
+          <h2 class="hWhite" id="int">INTERESTS</h2>
+          <ul>
+            <li>
+              <label for="file" class="fl pw">Design:</label>
+              <progress id="file" max="100" value="80" class="fl">80%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">Encode:</label>
+              <progress id="file" max="100" value="70" class="fl">70%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">Languajes:</label>
+              <progress id="file" max="100" value="90" class="fl">90%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">Travel:</label>
+              <progress id="file" max="100" value="80" class="fl">80%</progress>
+            </li>
+            <li>
+              <label for="file" class="fl pw">Video Games:</label>
+              <progress id="file" max="100" value="50" class="fl">50%</progress>
+            </li>
+          </ul>
+        </div>
+      </aside>
+      <section class="w70">
+        <div>
+          <h2 id="abo">ABOUT ME</h2>
+          <p class="ps">
+            My name is Juan Caballero, I am a Full Stack designer with five
+            years of experience in the field. I have worked on a variety of
+            projects in different sectors, which has allowed me to develop a
+            wide range of skills in web design, branding, user interface design,
+            and user experience.
+          </p>
+          <p class="ps">
+            In addition, I have studied UX, which has given me a deeper and more
+            specialized understanding of user experience, allowing me to offer
+            creative and innovative solutions to the projects I work on. I am
+            passionate about staying up-to-date with the latest design and
+            technology trends, and I am always looking for ways to improve and
+            perfect my skills.
+          </p>
+          <p class="ps">
+            I am from Colombia and am currently seeking opportunities to
+            continue growing in my career as a Full Stack designer. I am excited
+            to find new challenges and collaborate with other professionals to
+            create exceptional and effective design solutions.
+          </p>
+        </div>
+        <div>
+          <h2 id="edu">EDUCATION</h2>
+          <div class="ps">
+            <strong><p>Graphic Designer (2012-2018)</p></strong>
+            <p>Jorge Tadeo Lozano University</p>
+          </div>
+          <div class="ps">
+            <strong
+              ><p>Audiovisual and Multimedia Producer (2012-2018)</p></strong
+            >
+            <p>Jorge Tadeo Lozano University</p>
+          </div>
+        </div>
+        <div>
+          <h2 id="expe">EXPERIENCE</h2>
+          <div class="ps">
+            <strong
+              ><p>Content Manager - Vision y Marketing (2012-2018)</p></strong
+            >
+            <p>
+              Responsibilities: Created content, coded products, and created
+              HTML for extended content on the Samsung and Claro accounts.
+            </p>
+          </div>
+          <div class="ps">
+            <strong
+              ><p>
+                Web master - New Jersey Roofing Company (2020-2021)
+              </p></strong
+            >
+            <p>
+              Responsibilities: Created websites for different franchises using
+              Wordpress, HTML, and PHP.
+            </p>
+          </div>
+          <div class="ps">
+            <strong><p>Web Master - ItBoom Digital (2019 - 2020)</p></strong>
+            <p>
+              Responsibilities: Designed festive postcards that primarily
+              functioned as invitations for a major event within the gallery.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer">
+        <ul class="menu">
+          <li><a href="#" class="menu-btn2"><i class="fa-brands fa-instagram name icon"></i></a></li>
+          <li><a href="#" class="menu-btn2"><i class="fa-brands fa-linkedin-in name icon"></i></a></li>
+          <li><a href="#reg" class="menu-btn2"><i class="fa-solid fa-angle-up name icon"></i></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
